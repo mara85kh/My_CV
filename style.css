@@ -3,7 +3,6 @@ body {
     font-size-adjust: initial;
     font-size: 15px;   
     margin: 10px auto 10 px auto;
-    display: flex;
 }
 
 header {
@@ -13,8 +12,8 @@ header {
     text-align: center;
 }
 
-nav {
-    background-color:gray;
+.navlinks {
+    background-color:blue;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -23,22 +22,11 @@ nav {
     font-weight: bold;
     font-style: italic;
     padding: 20px 20px 20px 20px;
-}   
+}  
 
-.photo {
-    justify-content: space-around;
-    align-content: center;
-    border-radius: 50%;
-    padding: 20px 20px 20px 20px;
-    resize: 50%; /* resize 50% photo ? */
-    /* j'essaie de mettre la photo en rond*/
-}
-
-.titre {
-    background-color: lightblue;
+.exp {
+    background-color: red;
     width: 100%;
-    display: flex;
-    align-items: center;
     margin: 10px auto 10 px auto;
     font-weight: bolder;
     font-display: center;
@@ -46,14 +34,14 @@ nav {
     padding: 20px 20px 20px 20px;
 }
 
-.presentation {
-    background-color: red;
+.formations {
+    background-color: green;
     display: flex;
     margin: 10px auto 10 px auto;
     padding: 20px 20px 20px 20px;
 }
 
-.tg {
+.objectif {
     background-color: yellow;
     justify-content: center;
     align-items: center;
@@ -61,11 +49,12 @@ nav {
     padding: 20px 20px 20px 20px;  
 }
 
-.tg h1 {
+.objectif h1 {
     font-weight: bold;
+    padding: 20px 20px 20px 20px;
 }
 
-.hobby {
+.competences {
     background-color: pink;
     justify-content: center;
     align-items: center;
@@ -75,13 +64,8 @@ nav {
     padding: 20px 20px 20px 20px;
 }
 
-.hobby h1 {
-    font-weight: bold;
-    padding: 20px 20px 20px 20px;
-}
-
-.count {
-    background-color: green;
+.divers {
+    background-color: blue;
     justify-content: center;
     align-items: center;
     margin: 10px auto 10 px auto;
@@ -90,12 +74,12 @@ nav {
     padding: 20px 20px 20px 20px;
 }
 
-.count h1 {
+.divers h1 {
     font-weight: bold;
+    padding: 20px 20px 20px 20px;
 }
 
-
-.story {
+.footer {
     background-color: indigo;
     justify-content: center;
     align-items: center;
@@ -103,8 +87,4 @@ nav {
     font-display: center;
     text-align: center;
     padding: 20px 20px 20px 20px;
-}
-
-.story h1 {
-    font-weight: bold;
 }
